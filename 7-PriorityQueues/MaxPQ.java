@@ -59,7 +59,7 @@ public class MaxPQ<Key extends Comparable<Key>> {
 	while (k < N){
 	    int j = k*2;
 	    if (j < N && less(j, j+1)) {j++;}
-	    if (!less(j, k)) {break;}
+	    if (!less(k, j)) {break;}
 
 	    exch(j, k);
 	    k = j;
