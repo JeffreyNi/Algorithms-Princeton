@@ -1,3 +1,5 @@
+/* Implementation of standard Binary Search Tree.
+*/
 import java.util.*;
 
 public class BST<Key extends Comparable<Key>, Value> {
