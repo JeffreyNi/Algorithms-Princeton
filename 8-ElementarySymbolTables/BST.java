@@ -234,6 +234,6 @@ public class BST<Key extends Comparable<Key>, Value> {
 	if (x == null) {return;}
 	inorder(x.left);
 	q.add(x.key);
-	inorder(x.right);
+	inorder(x.right, q);
     }
 }
